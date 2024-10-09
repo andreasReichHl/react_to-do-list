@@ -17,7 +17,7 @@ export default function TodoList() {
                 </h1>
                 <input
                     type="text"
-                    placeholder="Aufgabe"
+                    placeholder="Aufgaben"
                     className="input input-bordered w-3/12  mr-3"
                     onChange={(e) => setTask(e.target.value)}
                     required
